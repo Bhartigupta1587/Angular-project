@@ -2,16 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import {HomepageComponent} from './homepage/homepage.component';
+import {CarouselComponent} from './carousel/carousel.component';
 
 const routes: Routes = [
   {
-    path: 'homepage',
-    component: HomepageComponent
-  },
-  {
-    path: '',
-    redirectTo: 'homepage',
-    pathMatch: 'full'
+    path: 'home',
+    component: CarouselComponent
   }
 ];
 
