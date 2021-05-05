@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CitiesComponent } from './cities/cities.component';
+import { LondonComponent } from './london/london.component';
+import { SanFranciscoComponent } from './san-francisco/san-francisco.component';
+import { SydneyComponent } from './sydney/sydney.component';
+import { SeattleComponent } from './seattle/seattle.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +17,10 @@ import { CitiesComponent } from './cities/cities.component';
     HomepageComponent,
     CarouselComponent,
     CitiesComponent,
+    LondonComponent,
+    SanFranciscoComponent,
+    SydneyComponent,
+    SeattleComponent,
   ],
   imports: [
     BrowserModule,

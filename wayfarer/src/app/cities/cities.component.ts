@@ -10,21 +10,21 @@ export class CitiesComponent implements OnInit {
   cities = [
     {
       id: 1,
-      name: 'San Francisco',
-      imgUrl: '/assets/images/san-francisco.png'
+      name: 'London',
+      image: '/assets/images/London.jpg'
     }, {
       id: 2,
-      name: 'London',
-      imgUrl: '/assets/images/London.jpg'
+      name: 'San Francisco',
+      image: '/assets/images/san-francisco.png'
     }, {
       id: 3,
       name: 'Sydney',
-      imgUrl: '/assets/images/gibralter.jpeg'
+      image: '/assets/images/gibralter.jpeg'
     },
     {
       id: 4,
       name: 'Seattle',
-      imgUrl: '/assets/images/seattle.jpeg'
+      image: '/assets/images/seattle.jpeg'
     }
   ];
   constructor(private router: Router) {

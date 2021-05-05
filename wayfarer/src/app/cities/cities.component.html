@@ -1,3 +1,20 @@
-<div class="col-sm-4">
-  cities works
+<div class="container">
+  <div class="row">
+    <div class="col-4 city-sideBar">
+      <h1>Cities</h1>
+      <div *ngFor="let city of cities" class="city-tabs" >
+        <div class="col-sm-2">
+        <img src="{{city.image}}">
+        </div>
+        <div class="col-sm-4">
+          <h4><a routerLink="/cities/{{city.id}}">{{city.name}}</a></h4>
+        </div>
+      </div>
+    </div>
+      <div class="col-8 city-information" >
+        <h1>citi Info</h1>
+        <router-outlet></router-outlet>
+      </div>
+  </div>
 </div>
+
