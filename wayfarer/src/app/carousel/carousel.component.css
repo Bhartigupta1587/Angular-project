@@ -1,4 +1,12 @@
+.marketing {
+  margin-top: 50px;
+}
+
+.marketing h1 {
+  text-align: center
+}
+
 .carousel-item img {
   height: 500px;
-  width: 500px
+  width: 100%
 }

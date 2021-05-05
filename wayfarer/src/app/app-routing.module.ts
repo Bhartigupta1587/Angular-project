@@ -3,11 +3,16 @@ import { RouterModule, Routes } from '@angular/router';
 
 import {HomepageComponent} from './homepage/homepage.component';
 import {CarouselComponent} from './carousel/carousel.component';
+import { CitiesComponent} from './cities/cities.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: CarouselComponent
+  },
+  {
+    path: 'cities',
+    component: CitiesComponent
   }
 ];
 

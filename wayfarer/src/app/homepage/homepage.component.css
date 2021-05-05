@@ -1,1 +1,15 @@
+.navbar img {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+}
+.navbar {
+  background-color: darkgrey;
+  color: black
+}
 
+.navbar a {
+  font-size: 40px;
+  margin-left: 20px;
+  color: black
+}

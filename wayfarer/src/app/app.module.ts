@@ -12,7 +12,7 @@ import { CitiesComponent } from './cities/cities.component';
     AppComponent,
     HomepageComponent,
     CarouselComponent,
-    CitiesComponent
+    CitiesComponent,
   ],
   imports: [
     BrowserModule,
