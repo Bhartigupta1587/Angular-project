@@ -4,10 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {HomepageComponent} from './homepage/homepage.component';
 import {CarouselComponent} from './carousel/carousel.component';
 import { CitiesComponent} from './cities/cities.component';
-import {LondonComponent} from './london/london.component';
-import {SanFranciscoComponent} from './san-francisco/san-francisco.component';
-import {SydneyComponent} from './sydney/sydney.component';
-import {SeattleComponent} from './seattle/seattle.component';
+import { CityComponent } from "./city/city.component";
 
 const routes: Routes = [
   {
@@ -23,22 +20,9 @@ const routes: Routes = [
     component: CitiesComponent,
     children: [
       {
-        path: '1',
-        component: LondonComponent
-      },
-      {
-        path: '2',
-        component: SanFranciscoComponent
-      },
-      {
-        path: '3',
-        component: SydneyComponent
-      },
-      {
-        path: '4',
-        component: SeattleComponent
-      }
-    ]
+        path: ':id',
+        component: CityComponent
+      }]
   }
 ];
 
