@@ -1,2 +1,24 @@
-<div class="col-sm-2"></div>
-<h1>{{city.name}}</h1>
+<div class="container">
+  <div class="row pt-2">
+    <div class="col-sm-5">
+      <h1>{{city.name}}</h1>
+    </div>
+    <div class="col-sm-7 image-container">
+      <img src="{{city.image}}"
+           alt="" class="image">
+    </div>
+  </div>
+  <div class="row">
+    <h1>Posts</h1>
+    <div *ngFor="let post of city.posts; index as i" class="row post-container">
+      <div class="col-sm-3">
+        <img src="{{city.image}}"
+             alt="" class="postImage">
+      </div>
+      <div class="col-sm-9">
+        <h5><a routerLink="/cities/{{city.id}}/posts/{{i}}">{{post.title}}</a></h5>
+        <p>{{post.content}}</p>
+      </div>
+    </div>
+  </div>
+</div>

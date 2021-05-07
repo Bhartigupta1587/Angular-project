@@ -364,7 +364,7 @@ class CitiesComponent {
             }, {
                 id: 3,
                 name: 'Sydney',
-                image: '/assets/images/gibralter.jpeg'
+                image: '/assets/images/sydeny.jpeg'
             },
             {
                 id: 4,

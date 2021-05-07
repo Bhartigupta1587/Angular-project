@@ -16,7 +16,7 @@ export class CityComponent implements OnInit {
     this.route.paramMap
       .subscribe(params => {
         this.city = this.cityService.getAllCities().find(city => {
-          return city.id === parseInt(params.get('id'));
+          return city.id === parseInt(params.get('id'),10);
         });
       });
   }

@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CitiesComponent } from './cities/cities.component';
-import {DestinationsModule} from "./destinations/destinations.module";
 import { PostComponent } from './post/post.component';
 import { CityComponent } from './city/city.component';
 
@@ -18,12 +17,11 @@ import { CityComponent } from './city/city.component';
     CarouselComponent,
     CitiesComponent,
     PostComponent,
-    CityComponent,
+    CityComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    DestinationsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

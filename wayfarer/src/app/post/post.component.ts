@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {CitiesDataService} from "../cities-data.service";
+import {ActivatedRoute} from "@angular/router";
+
 
 @Component({
   selector: 'app-post',
@@ -6,10 +9,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./post.component.css']
 })
 export class PostComponent implements OnInit {
-
-  constructor() { }
+  city: any;
+  post: any;
+  constructor(private cityService: CitiesDataService, private route: ActivatedRoute ) { }
 
   ngOnInit(): void {
+    this.route.paramMap
+      .subscribe(params => {
+        const postId = parseInt(params.get('postId'), 10);
+        this.city = this.cityService.getAllCities().find(city => {
+          return city.id === parseInt(params.get('id'),10);
+        });
+        this.post = this.city.posts[postId];
+      });
   }
 
 }

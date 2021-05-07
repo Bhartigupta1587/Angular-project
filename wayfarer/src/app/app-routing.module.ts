@@ -5,6 +5,7 @@ import {HomepageComponent} from './homepage/homepage.component';
 import {CarouselComponent} from './carousel/carousel.component';
 import { CitiesComponent} from './cities/cities.component';
 import { CityComponent } from "./city/city.component";
+import {PostComponent} from "./post/post.component";
 
 const routes: Routes = [
   {
@@ -22,7 +23,13 @@ const routes: Routes = [
       {
         path: ':id',
         component: CityComponent
-      }]
+      },
+      {
+        path: ':id/posts/:postId',
+        component: PostComponent
+      }
+      ]
+
   }
 ];
 

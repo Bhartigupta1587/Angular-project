@@ -1,19 +1,19 @@
 <div class="container">
   <div class="row">
-    <div class="col-4 city-sideBar">
+    <div class="col-3 city-sideBar">
       <h1>Cities</h1>
-      <div *ngFor="let city of cities" class="city-tabs" >
+      <div *ngFor="let city of cities" class="city-tabs">
         <div class="col-sm-2">
-        <img src="{{city.image}}">
+          <img src="{{city.image}}">
         </div>
-        <div class="col-sm-4">
+        <div>
           <h4><a routerLink="/cities/{{city.id}}">{{city.name}}</a></h4>
         </div>
       </div>
     </div>
-      <div class="col-8 city-information" >
-        <router-outlet></router-outlet>
-      </div>
+    <div class="col-8 city-information">
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </div>
 

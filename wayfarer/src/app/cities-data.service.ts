@@ -36,7 +36,7 @@ export class CitiesDataService {
     }, {
       id: 3,
       name: 'Sydney',
-      image: '/assets/images/gibralter.jpeg',
+      image: 'https://searchfrog.com.au/wp-content/uploads/2020/12/moving-to-sydney.jpg',
       posts: [{
         title: 'Sydney 1',
         author: 'ammy',
@@ -62,7 +62,23 @@ export class CitiesDataService {
         content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At officia, pariatur qui quis quo ullam vel? Accusamus maxime officia vitae voluptatibus! Doloremque maiores mollitia nobis quisquam. Laboriosam molestiae quod voluptates?'
 
       }]
+    },
+    {
+      id: 5,
+      name: 'India',
+      image: '/assets/images/India.jpeg',
+      posts: [{
+        title: 'India 1',
+        author: 'ammy',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At officia, pariatur qui quis quo ullam vel? Accusamus maxime officia vitae voluptatibus! Doloremque maiores mollitia nobis quisquam. Laboriosam molestiae quod voluptates?'
+      },{
+        title: 'India 2',
+        author: 'sammy',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At officia, pariatur qui quis quo ullam vel? Accusamus maxime officia vitae voluptatibus! Doloremque maiores mollitia nobis quisquam. Laboriosam molestiae quod voluptates?'
+
+      }]
     }
+
   ];
   constructor() { }
 
