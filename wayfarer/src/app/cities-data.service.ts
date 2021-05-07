@@ -77,6 +77,34 @@ export class CitiesDataService {
         content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At officia, pariatur qui quis quo ullam vel? Accusamus maxime officia vitae voluptatibus! Doloremque maiores mollitia nobis quisquam. Laboriosam molestiae quod voluptates?'
 
       }]
+    },{
+      id: 6,
+      name: 'China',
+      image: '/assets/images/shanghai.jpeg',
+      posts: [{
+        title: 'China 1',
+        author: 'ammy',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At officia, pariatur qui quis quo ullam vel? Accusamus maxime officia vitae voluptatibus! Doloremque maiores mollitia nobis quisquam. Laboriosam molestiae quod voluptates?'
+      },{
+        title: 'China 2',
+        author: 'sammy',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At officia, pariatur qui quis quo ullam vel? Accusamus maxime officia vitae voluptatibus! Doloremque maiores mollitia nobis quisquam. Laboriosam molestiae quod voluptates?'
+
+      }]
+    },{
+      id: 7,
+      name: 'Japan',
+      image: '/assets/images/japan.jpeg',
+      posts: [{
+        title: 'Japan 1',
+        author: 'ammy',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At officia, pariatur qui quis quo ullam vel? Accusamus maxime officia vitae voluptatibus! Doloremque maiores mollitia nobis quisquam. Laboriosam molestiae quod voluptates?'
+      },{
+        title: 'Japan 2',
+        author: 'sammy',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At officia, pariatur qui quis quo ullam vel? Accusamus maxime officia vitae voluptatibus! Doloremque maiores mollitia nobis quisquam. Laboriosam molestiae quod voluptates?'
+
+      }]
     }
 
   ];

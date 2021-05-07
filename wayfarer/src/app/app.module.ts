@@ -8,8 +8,9 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { CitiesComponent } from './cities/cities.component';
 import { PostComponent } from './post/post.component';
 import { CityComponent } from './city/city.component';
-
-
+import { WeatherComponent } from './weather/weather.component';
+import {HttpClientModule} from "@angular/common/http";
+import {FormsModule} from "@angular/forms";
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,11 +18,14 @@ import { CityComponent } from './city/city.component';
     CarouselComponent,
     CitiesComponent,
     PostComponent,
-    CityComponent
+    CityComponent,
+    WeatherComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
