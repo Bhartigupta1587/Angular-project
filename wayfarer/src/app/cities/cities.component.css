@@ -1,35 +1,38 @@
+.container{
+  background-color: #fdffd5;
+}
+
 .city-information{
   border: 1px solid black;
 }
-.city-sideBar{
+.city-side-bar{
   background-color: gray;
   border: black solid 1px;
-  text-align: center;
 }
-.city sideBar h1{
-  margin-left: 30px;
-}
+
 .city-tabs{
   background-color: white;
   border-radius: 20px;
   border: black solid 1px;
-  height: 160px;
   margin: 10px;
-  width: 190px;
-  text-align: center;
+  width: 240px;
+  min-height: 50px;
+  padding: 10px;
+}
 
+.city-tabs h4{
+  width: 220px;
+  margin: 5px;
 }
 .city-tabs img{
   display: block;
-  width: 100px;
-  height: 40px;
-  margin: 13px 10px 20px 30px;
+  width: 100%;
+  height: 50px;
+  width: 50px;
   border: solid black;
   align-content: center;
 }
-.city-tabs h4{
-  margin: 10% 0;
-}
+
 .city-tabs:hover{
   background-color: orange;
 }
